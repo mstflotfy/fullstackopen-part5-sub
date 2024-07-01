@@ -1,5 +1,5 @@
 Full Stack Open - Part 5 Submission
-This repository contains the code for the exercises in Part 5 of the Full Stack Open course. It includes the following components:
+This repository contains the code for the exercises in Part 5 of the Full Stack Open course. It uses Git submodules to include the following components:
 
     Frontend (React)
     Backend (Express)
@@ -53,6 +53,4 @@ cd ../playwrigh-tests
 npm run test -- --ui
 
 The frontend will be available at http://localhost:3003, the backend at http://localhost:3001, and the Playwright tests will run in playwright ui.
-Submission Details
-
 
