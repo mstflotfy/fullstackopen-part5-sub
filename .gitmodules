@@ -1,0 +1,9 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/mstflotfy/FullStackOpen-bloglist-frontend
+[submodule "backend"]
+	path = backend
+	url = https://github.com/mstflotfy/fullstackopen-bloglist-backend
+[submodule "playwright-tests"]
+	path = playwright-tests
+	url = https://github.com/mstflotfy/bloglist-playwright-fullstackopen-2024-part5-submission
