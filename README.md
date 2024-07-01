@@ -17,10 +17,14 @@ To run the project locally, follow these steps:
 1. Clone the repository
 
 bash
-git clone https://github.com/mstflotfy/fullstackopen-part5-submission
-cd fullstackopen-part5-submiss
+git clone https://github.com/mstflotfy/fullstackopen-part5-sub
+cd fullstackopen-part5-sub
 
-2. Install dependencies
+2. Intialize submodules:
+git submodule update --init --recursive
+
+
+3. Install dependencies
 Navigate to each subfolder and install the dependencies:
 
 bash
@@ -33,10 +37,10 @@ cd ../backend
 npm install
 
 # Tests
-cd ../playwrigh-tests
+cd ../playwright-tests
 npm install
 
-3. Start the applications
+4. Start the applications
 In separate terminal windows, start the frontend, backend, and run the tests:
 
 bash
@@ -49,8 +53,6 @@ cd ../backend
 npm run start:test
 
 # Tests
-cd ../playwrigh-tests
+cd ../playwright-tests
 npm run test -- --ui
-
-The frontend will be available at http://localhost:3003, the backend at http://localhost:3001, and the Playwright tests will run in playwright ui.
 
